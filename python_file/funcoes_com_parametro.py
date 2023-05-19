@@ -75,7 +75,6 @@ print(outra(10, 20, 'Python '))
 
 # print(soma(2, 3 , 4))  # TypeError - Passando argumentos a mais 
 # print(soma(2))  # TypeError - Passando argumentos a menos
-"""
 
 # Nomeando parâmetros
 
@@ -103,7 +102,9 @@ print(nome_completo(sobrenome, nome))
 
 print(nome_completo(nome='Angelina', sobrenome='Jolie'))
 print(nome_completo(nome=nome, sobrenome=sobrenome))
-print(nome_completo(sobrenome='Marques', nome='Marcia'))
+print(nome_completo(sobrenome='Marques', nome='Marcia'))f
+"""
+
 
 # Erro comum na utilização do return
 
@@ -118,3 +119,6 @@ def soma_impares(numeros):
 
 lista = [1, 2, 3, 4, 5, 6, 7]
 print(soma_impares(lista))
+
+tupla = (1, 2, 3, 4, 5, 6, 7)
+print(soma_impares(tupla))

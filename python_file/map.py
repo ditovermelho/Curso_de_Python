@@ -69,6 +69,7 @@ os.system('cls') or None
 cidades = [('Berlim', 29), ('Cairo', 36), ('Buenos Aires', 19),
            ('Los Angeles', 26), ('Tokio', 27), ('Nova York', 28), ('Londes', 22)]
 
+print(cidades)
 print()
 
 # f = 9/5 * c + 32

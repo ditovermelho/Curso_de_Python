@@ -66,3 +66,4 @@ print()
 # Podemos utilizar o map()
 
 print(dict(zip(alunos, map(lambda nota: max(nota), zip(prova1, prova2)))))
+print()

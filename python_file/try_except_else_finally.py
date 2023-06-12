@@ -27,7 +27,7 @@ else:
     print(f'Você digitou o número: {num}')
 finally:
     print("Executando o finally")
-    
+
 # OBS: O bloco finally é SEMPRE executado. Independente se houver exceção ou
 # não.
 

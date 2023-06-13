@@ -3,7 +3,7 @@ Módulo Random e o que são módulos?
 
 - Em Python, módulos nada mais são do que outros arquivos Python.
 
-Módulo Random -> Possui várias funções para geração de números pseudo-aleatório.
+Módulo Random -> Possui várias funções para geração de números pseudo-aleatório
 
 # OBS: Exitem duas formas de se utilizar um módulo ou função deste.
 
@@ -56,8 +56,9 @@ print()
 
 """
 
-from random import shuffle
+
 import os  # pacote de integração com o sistema operacional.
+from random import shuffle
 
 # limpando a tela do terminal, or None é para evitar a exibição de retorno
 # do comando.

@@ -58,13 +58,13 @@ print()
 
 
 import os  # pacote de integração com o sistema operacional.
+# shuffle() -> Tem a função de embaralhar dados
 from random import shuffle
 
 # limpando a tela do terminal, or None é para evitar a exibição de retorno
 # do comando.
 os.system('cls') or None
 
-# shuffle() -> Tem a função de embaralhar dados
 
 cartas = ['K', 'Q', 'J', 'A', '2', '3', '4', '5', '6', '7']
 

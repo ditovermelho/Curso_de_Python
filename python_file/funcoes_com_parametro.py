@@ -1,4 +1,4 @@
-""" 
+"""
 Funções com Parametro (de entrada)
 
 - Funções que recebem dados para serem processados dentro da mesma;

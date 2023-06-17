@@ -59,7 +59,8 @@ arquivo.close()
 print(arquivo.close) # True - Verifica se o arquivo está aberto ou fechado
 print()
 
-# OBS: Se tentarmos manipular o arquivo após seu fechamento, teremos um ValueError
+# OBS: Se tentarmos manipular o arquivo após seu fechamento, teremos um 
+ValueError
 """
 import os  # pacote de integração com o sistema operacional.
 

@@ -154,6 +154,8 @@ arquivo.write(b'Geek University\n')
 arquivo.seek(0)
 print(arquivo.read())
 arquivo.close()
+
+
 """
 import os  # pacote de integração com o sistema operacional.
 

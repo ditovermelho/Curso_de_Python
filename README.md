@@ -17,24 +17,6 @@ python -m pip install --upgrade pip
 ```
 
 ## Comandos de geração de requerimentos do projeto
-* Pipreqs:
-```javascript
-pip install pipreqs
-```
-Essa biblioteca permite criar o arquivo de requerimento do projeto, puxando apenas as dependências do projeto. A única dependência 
-desse pacote e, que todos os arquivos estejam dentro de uma pasta. 
-
-No nosso caso:
-```javascript
-pipreqs ./pythonfile
-```
-ou para forçar a criação:
-```javascript
-pipreqs --force ./pythonfile
-```
-O pipreqs ira ler todos os arquivos da pasta e identificara todos 
-os pacotes necessários para o projeto. Assim, é preciso prestar atenção aos pacotes que não são invocados mas são necessários para o projeto, como o lxml para quem usa BeutifulSoup. fonte: https://medium.com/pyladiesbh/requirements-em-python-ec88b42058a6.
-
 * Freeze:
 ```javascript
 pip freeze > requirements.txt
